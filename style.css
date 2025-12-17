@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 body {
@@ -50,15 +50,21 @@ body {
 
 /* Text */
 .subtitle {
-    font-size: 22px;
-    line-height: 1.6;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 54px;
     margin-bottom: 40px;
     color: #eaeaea;
 }
 
 .highlight {
     color: #f4a640;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
     font-style: italic;
+    font-size: 50px;
+    line-height: 54px;
 }
 
 /* Buttons */
@@ -74,7 +80,7 @@ body {
     padding: 16px 32px;
     border-radius: 12px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     display: inline-flex;
     align-items: center;
@@ -113,9 +119,17 @@ body {
 
 /* arrow motion */
 .arrow {
-  transition: transform 0.3s ease;
+    display: inline-flex;
+    align-items: center;
 }
 
-.btn:hover .arrow {
-  transform: translate(6px, -6px);
+.icon-arrow {
+    width: 22px;
+    height: auto;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover .icon-arrow {
+    transform: translate(6px, -6px);
 }
