@@ -289,7 +289,7 @@ body {
     filter: blur(0.3px);
     transition: all 0.4s ease;
   }
-
+/* hello */
   .logo-wrapper:hover .dot-circle {
         animation: rotateDots 20s linear infinite, expandPulse 0.6s ease-in-out infinite, glowPulse 1.2s ease-in-out infinite;
         filter: blur(0.3px) brightness(1.8);
